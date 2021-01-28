@@ -1,0 +1,40 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false, 
+    "anonymousAuthentication": true, 
+    "iisExpress": {
+      "applicationUrl": "http://localhost:52710",
+      "sslPort": 44397
+    }
+  },
+  "profiles": {
+    "Azure App PurpleAir": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/purpleair",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Azure App Machine Learning": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/machinelearning/0/0/0/",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Azure App UAFSMoke": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/uafsmoke/0/0/0/",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
